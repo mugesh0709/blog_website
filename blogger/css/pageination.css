@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+section{
+    width: 100%;
+    padding: 40px 0px;
+}
+
+/*********************************** pagination nav bar**************************************  */
+
+nav{
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: 16px;
+    border-bottom: 1px solid lightslategray;
+}
+.navbar .navbar-brand{
+    color: #fff;
+}
+.navbar .navbar-brand:hover{
+    color: #fff;
+}
+.navbar .navbar-brand span{
+    color: blue;
+}
+.navbar .btn{
+    color: #fff;
+    transition: all .4s;
+}
+.navbar .btn:hover{
+    color: blue;
+}
+
+/*********************************** trend_ ai section***************************************  */
+/*********************************** trend_ai img section***************************************  */
+.trend_ai_img{
+    height: 450px;
+    padding: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../img/tech\ ai1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*********************************** trend_ai text section***************************************  */
+
+.trend_text{
+    min-height: 100vh;
+}
+.trend_text .trend_text_body p{
+    width: 90%;
+    text-align: justify;
+}
+.trend_text .trend_text_body .ai_img1{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+
+/*********************************** trend_ai swiper section***************************************  */
+
+.trend_swiper{
+    min-height: 50vh;
+    background-color: rgba(0, 0, 0, 0.897);
+}
+
+.trend_swiper h3{
+    color: #fff;
+    text-decoration: 3px underline blue;
+    font-size: 35px;
+}
+.swiperss{
+    width: 500px;
+    height: 500px;
+}
+.swiperss .card h5{
+    text-align: justify;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white,
+                 0px 0px 20px white,
+                 0px 0px 40px white;
+  }
+
+  .swiper-slide {
+    box-shadow:  0px 0px 5px blue,
+                 0px 0px 15px blue;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color);
+  }
+
+  .autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--swiper-theme-color);
+    fill: none;
+    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+  }
+
+  .swiper .card a{
+    text-decoration: transparent;
+    color: black;
+    transition: all .4s;
+  }
+  .swiper .card a:hover{
+    text-decoration: underline;
+    color: blue;
+  }
+
+/*********************************** trend_ apple mobile section***************************************  */
+  
+/*********************************** trend_ apple mobile img section***************************************  */
+.trend_mob_img{
+    height: 450px;
+    padding: 0;
+    background-image: url(../img/aplemob1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/*********************************** trend_ apple mobile text  section***************************************  */
+
+.trend_text .trend_text_body .mobile_img1{
+    width: 90%;  
+    overflow: hidden;
+}
+
+
+/*********************************** trend_ ipl section***************************************  */
+/*********************************** trend_ ipl img section***************************************  */
+.trend_ipl_img{
+    height: 450px;
+    padding: 0;
+    background-image: url(../img/news\ ipl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+/*********************************** trend_ ipl text  section***************************************  */
+
+.trend_text .trend_text_body .mobile_img1{
+    width: 90%;
+    height: 500px;  
+}
+
+/*********************************** trend_ cskrcp section***************************************  */
+/*********************************** trend_ cskrcp img section***************************************  */
+
+.trend_csk_img{
+    height: 450px;
+    padding: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../img/cskrcp1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+/*********************************** trend_ cskrcp text  section***************************************  */
+
+.trend_text .trend_text_body .csk_img1{
+    width: 90%;
+    min-height: 500px;  
+    overflow: hidden;
+}
+
+
+/*********************************** trend_ freefire section***************************************  */
+/*********************************** trend_ freefire img section***************************************  */
+
+.trend_ff_img{
+    height: 450px;
+    padding: 0;
+    background-image: url(../img/game\ ff.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+/*********************************** trend_ freefire text  section***************************************  */
+
+.trend_text .trend_text_body .ff_img1{
+    width: 90%;
+    height: 200px;  
+    overflow: hidden;
+    background-image: url(../img/ff1img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.trend_text .trend_text_body .ff_img2{
+    width: 90%;
+    min-height: 300px;  
+    overflow: hidden;
+}
+
+
+/*********************************** trend_ calldude section***************************************  */
+/*********************************** trend_ calldude img section***************************************  */
+
+.trend_cd_img{
+    height: 450px;
+    padding: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../img/calldude1img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+/*********************************** trend_ calldude text  section***************************************  */
+.trend_text .trend_text_body .cd_content{
+    width: 90%;
+    min-height: 370px;
+    overflow: hidden;
+}
+.trend_text .trend_text_body .cd_content .cd_img1{
+    width: 100%;
+    height: 100%;
+}
+.trend_text .trend_text_body .cd_content .cd_img2{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+/*********************************** braeak points section***************************************  */
+/*********************************** max width 990 section***************************************  */
+
+@media only screen and (max-Width:990px) {
+    
+    .trend_text .trend_text_head h1{
+        font-size: 35px;
+    }
+
+    .trend_ai_img{
+        height: 420px;
+    }        
+    .trend_text .trend_text_body .ai_img1{
+        width: 450px;
+        height: 450px;
+    }    
+    .swiperss{
+        width: 470px;
+        height: 500px;
+    } 
+
+    .trend_mob_img{
+        height: 420px;
+    }   
+    
+    .trend_ipl_img{
+        height: 420px;
+    }     
+ 
+    .trend_csk_img{
+        height: 420px;
+    }     
+
+    .trend_ff_img{
+    height: 420px;
+    }
+
+    .trend_cd_img{
+        height: 420px;
+    }    
+    
+}
+
+/*********************************** max width 768 section***************************************  */
+
+@media only screen and (max-width:768px) {
+    
+    .trend_swiper .card h5{
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .trend_text .trend_text_body p{
+        width: 95%;
+    }
+
+    .trend_text .trend_text_head h1{
+        font-size: 30px;
+    }
+
+    .trend_text .trend_text_body .ai_img1{
+        width: 400px;
+        height: 400px;
+    }    
+
+    .trend_text .trend_text_body .mobile_img1{
+        width: 95%;  
+    }    
+
+    .trend_text .trend_text_body .mobile_img1{
+        width: 95%;
+    }    
+    
+    .trend_text .trend_text_body .csk_img1{
+        width: 95%;
+    }    
+
+    .trend_text .trend_text_body .ff_img1{
+        width: 95%;
+    }    
+    .trend_text .trend_text_body .ff_img2{
+        width: 95%;
+        min-height: 200px;
+    }      
+
+    .trend_text .trend_text_body .cd_content{
+        width: 95%;
+    }    
+}
+
+/*********************************** max width 638 section***************************************  */
+
+@media only screen and (max-width:638px){
+    .trend_text .trend_text_body p{
+        word-spacing: -1px;
+        font-size: 14px;
+    }
+    .trend_text .trend_text_head h1{
+        font-size: 27px;
+    }
+
+    .trend_ai_img{
+        height: 380px;
+    }        
+    .trend_text .trend_text_body .ai_img1{
+        width: 350px;
+        height: 350px;
+    }    
+    .swiperss{
+        width: 420px;
+        height: 420px;
+    } 
+
+    .trend_mob_img{
+        height: 380px;
+    }   
+    
+    .trend_ipl_img{
+        height: 380px;
+    }     
+ 
+    .trend_csk_img{
+        height: 380px;
+    }     
+
+    .trend_ff_img{
+    height: 380px;
+    }
+
+    .trend_cd_img{
+        height: 380px;
+    }
+}
+
+
+
+
+/*********************************** max width 540 section***************************************  */
+
+@media only screen and (max-width:540px){
+    
+    .navbar .navbar-brand{
+        font-size: 18px;
+    }
+
+    .trend_text .trend_text_head h1{
+        font-size: 24px;
+    }
+
+    .trend_ai_img{
+        height: 320px;
+    }        
+    .trend_text .trend_text_body .ai_img1{
+        width: 300px;
+        height: 300px;
+    }    
+    .swiperss{
+        width: 360px;
+        height: 440px;
+    } 
+    .swiperss .card h5{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .trend_mob_img{
+        height: 320px;
+    }   
+    
+    .trend_ipl_img{
+        height: 320px;
+    }     
+ 
+    .trend_csk_img{
+        height: 320px;
+    }     
+
+    .trend_ff_img{
+    height: 320px;
+    }
+
+    .trend_cd_img{
+        height: 320px;
+    }
+}
